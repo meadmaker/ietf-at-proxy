@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ietf-at-proxy:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2023-12-18T09:28:32.460634241Z"
+    description: Proxy NGinX instance for Author-Tools
+    digest: 55e609c523545261d43e7d712c316199e8ca3b693f22ba7b12eb5e97a363fb73
+    name: ietf-at-proxy
+    type: application
+    urls:
+    - https://github.com/meadmaker/ietf-at-proxy/releases/download/ietf-at-proxy-0.1.0/ietf-at-proxy-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-12-18T09:28:32.460641203Z"
