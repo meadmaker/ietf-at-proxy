@@ -61,4 +61,24 @@ entries:
     urls:
     - https://github.com/meadmaker/ietf-at-proxy/releases/download/ietf-at-proxy-0.1.0/ietf-at-proxy-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-19T18:13:05.956189523Z"
+  proxy:
+  - apiVersion: v2
+    appVersion: 1.0.0-pre1
+    created: "2023-12-25T17:00:22.184461969Z"
+    dependencies:
+    - condition: api.enabled
+      name: api
+      repository: ""
+      version: 0.1.0
+    - condition: ui.enabled
+      name: ui
+      repository: ""
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 0ea136efaba854f8f32c1f102e654f4c47429f2e574f16237c0e36a9ab68f7a6
+    name: proxy
+    type: application
+    urls:
+    - https://github.com/meadmaker/ietf-at-proxy/releases/download/proxy-1.0.0/proxy-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-12-25T17:00:22.184479341Z"
