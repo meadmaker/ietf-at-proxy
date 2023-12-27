@@ -63,6 +63,25 @@ entries:
     version: 0.1.0
   ietf-authortools:
   - apiVersion: v2
+    appVersion: 1.0.0-pre6
+    created: "2023-12-27T05:19:30.084874218Z"
+    dependencies:
+    - condition: api.enabled
+      name: api
+      repository: ""
+      version: 0.1.0
+    - condition: ui.enabled
+      name: ui
+      repository: ""
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: e79ca977fb40846e07901c77932145b32abf92a57a1308e6d6193459577edb1d
+    name: ietf-authortools
+    type: application
+    urls:
+    - https://github.com/meadmaker/ietf-at-proxy/releases/download/ietf-authortools-1.0.0-pre6/ietf-authortools-1.0.0-pre6.tgz
+    version: 1.0.0-pre6
+  - apiVersion: v2
     appVersion: 1.0.0-pre5
     created: "2023-12-27T04:51:10.806608759Z"
     dependencies:
@@ -158,4 +177,4 @@ entries:
     urls:
     - https://github.com/meadmaker/ietf-at-proxy/releases/download/proxy-1.0.0-pre2/proxy-1.0.0-pre2.tgz
     version: 1.0.0-pre2
-generated: "2023-12-27T04:51:10.80664103Z"
+generated: "2023-12-27T05:19:30.084924522Z"
